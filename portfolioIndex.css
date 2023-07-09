@@ -1,0 +1,331 @@
+body{
+    background-color: #faeee7;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: Trebuchet MS, Arial, sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+hr{
+    border: 2px solid rgb(235, 46, 78);
+    width: 3rem;
+    border-radius: 5px;
+}
+
+a{
+color:rgb(235, 46, 78);
+text-decoration:none;
+}
+
+a:hover{
+    color:rgb(188, 36, 61);
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.navCon{
+    display:flex;
+    justify-content: space-around;
+    background-color: #faeee7;
+    overflow: hidden;
+    min-width: 90%;
+    z-index:1;
+    font-size: 1em;
+    position:fixed;
+    padding: 0px 30px;
+}
+
+
+.logolink{
+    display: flex;
+    gap:1rem;
+
+}
+
+.R{
+    background-color:rgb(235, 46, 78);
+    padding: 15px 20px;
+    position: relative;
+    bottom: 15px;
+    color:white;
+}
+
+.R a:hover{
+    text-decoration: none;
+}
+.nav-items{
+    display:flex;
+    min-width:100%;
+    justify-content:space-around;
+    gap: 10em;
+    position:relative;
+    top:20px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color:black;
+    transition-duration:0.3s;
+}
+
+.nav-items a:hover{
+    text-decoration: underline 3px rgb(235, 46, 78);
+
+}
+
+
+/* --------intro------------ */
+
+.intro{
+    /* padding: 0px 60px; */
+    margin: 0px auto;
+    text-align: center;
+}
+.greeting{
+    position:relative;
+    top:1em;
+    font-size:2.5em;
+    /* text-align: left; */
+}
+
+.visit{
+    position:relative;
+    bottom:0.5em;
+    font-size:1.5em;
+    /* text-align: left; */
+}
+
+.visit a{
+    color:rgb(235, 46, 78);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.visit a:hover{
+    text-decoration: none;
+    color:rgb(188, 36, 61)
+}
+
+
+.intro h1{
+    font-size:4em;
+}
+
+/* ---------about me-------- */
+.aboutCon{
+    display:flex;
+    /* max-width: 80%; */
+    margin: 0 auto;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+}
+
+.about{
+    padding: 0px 30px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.skills{
+    padding: 0px 30px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+
+.button{
+    background-color: rgb(235, 46, 78);
+    color:white;
+    padding: 15px 15px;
+    border-radius:20px;
+    font-size: 1.25em;
+    outline: solid 2px rgb(188, 36, 61);
+}
+
+.button:hover{
+    background-color: rgb(188, 36, 61);
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+} 
+/* --------projects--------- */
+
+
+.project-card a{
+    text-decoration: none;
+    color:rgb(235, 46, 78)
+}
+
+.project-card a:hover{
+    color:rgb(188, 36, 61);
+    cursor:pointer;
+}
+
+.project-card{
+    background-color: #eee4df;
+    width:14em;
+    border-radius: 20px;
+    outline: black 1px solid;
+    padding: 20px 45px;
+    height:22em;
+}
+
+.vertical{
+    width:14em;
+    border-radius: 20px;
+    padding: 10px 15px;
+    height:22em;
+    filter: grayscale(100%);
+}
+
+.project-card p{
+    font-size:1em;
+}
+
+.icon{
+    width:2.5em;
+}
+
+.bigIcon{
+    width: 5em;
+
+}
+
+.cardCon{
+    display:flex;
+    gap:130px;
+    flex-wrap:wrap;
+    max-width:100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* ---------experience------------ */
+
+.exp-card{
+    background-color: #eee4df;
+    width: 20em;
+    border-radius:0px 20px 20px 0px;
+    border: solid 1.5px black;
+    padding: 10px 15px;
+}
+
+.exp-card a{
+    color: rgb(235, 46, 78);
+    text-decoration: none;
+}
+
+
+/* --------skills----------- */
+
+.skill-card{
+    background-color: #eee4df;
+    max-width:30%;
+    padding: 0px 20px;
+    border-radius:20px;
+    outline: black 1px solid;
+}
+
+.skillCon{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5px;
+}
+
+
+/* ---------timeline------- */
+
+
+
+.experience{
+    max-width:40%;
+    padding: 0px 30px;
+    margin: 0px auto;
+}
+
+
+
+
+  .short-term{
+    max-width: 40%;
+    padding: 0px 30px;
+    margin: 0px auto;
+    
+  }
+
+  .list{
+    background-color: #eee4df;
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+    right: 1rem;
+  }
+
+  .list1{
+    background-color: #cdc8c5;
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+    left: 1rem;
+
+  }
+
+
+.expCon{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.contact-info{
+    padding-inline-start: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(235, 46, 78);
+    height: 200px;
+}
+
+@media (max-width: 1250px) {
+    .nav-items {
+      font-size: 0.75em;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .nav-items {
+      font-size: 0.7em;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .nav-items {
+      font-size: 0.7em;
+      flex-wrap: wrap;
+    }
+  } */
+
+
+
+
